@@ -1,4 +1,6 @@
 #+title: Wab Compiler
 
+Based on the brilliant course by [[https://www.dabeaz.com/][David Beazley]] a compiler for the wab/wabbi/wabbit language. This was started over the course of a week so in places the code is pretty rough and ready but it works!
+
 * Ideas [/]
 ** TODO implement functor Stmt?
