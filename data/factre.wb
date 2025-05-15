@@ -1,0 +1,24 @@
+// Compute factorials (recursion).
+// Note: This looks a little weird since Wab doesn't have subtraction.
+
+func factre(x, n) {
+   if x == n {
+       return n;
+   } else {
+       return x*factre(x+1, n);
+   }
+}
+      
+func fact(n) {
+   if 0 < n {
+      return factre(1, n);
+   } else {
+      return 1;
+   }
+}
+
+var x = 1;
+while x < 10 {
+    print fact(x);
+    x = x + 1;
+}

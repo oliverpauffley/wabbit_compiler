@@ -1,0 +1,4 @@
+#+title: Wab Compiler
+
+* Ideas [/]
+** TODO implement functor Stmt?
